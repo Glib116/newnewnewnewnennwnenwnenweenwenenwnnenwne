@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn_right">
+   <property name="geometry">
+    <rect>
+     <x>-6</x>
+     <y>260</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вправо</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_left">
+   <property name="geometry">
+    <rect>
+     <x>94</x>
+     <y>260</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вліво</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_flip">
+   <property name="geometry">
+    <rect>
+     <x>174</x>
+     <y>260</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Відзеркалити</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_bw">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>260</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ч/Б</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_image">
+   <property name="geometry">
+    <rect>
+     <x>96</x>
+     <y>2</y>
+     <width>291</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LabelImage</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lw_files">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>51</y>
+     <width>91</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_dir">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Пакпка</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_sharp">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>411</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Різкість</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
