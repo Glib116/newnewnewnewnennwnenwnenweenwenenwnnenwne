@@ -53,7 +53,7 @@ monster = GameSprite('cyborg.png', 5, win_width - 80, 280, 2)
 final = GameSprite('treasure.png', 5, win_width - 120, win_height - 80, 0)
 mixer.init()
 mixer.music.load('jungles.ogg')
-mixer .music.play()
+mixer.music.play()
 
 
 
@@ -73,3 +73,6 @@ while game:
         player.reset()
         monster.reset()
         final.reset()
+
+    display.update()
+    clock.tick(FPS)
