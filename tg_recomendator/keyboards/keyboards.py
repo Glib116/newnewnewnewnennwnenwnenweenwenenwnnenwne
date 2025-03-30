@@ -23,14 +23,15 @@ def admin_keyboard():
     return keyboard
 
 def categories_inline_keyboard(categories):
-    buttons = [
-        for category in categories:
-            buttons.append(
-                InlineKeyboardButton(text=category['name'],
-                    callback_data= f"category"_{category['id']})
-            )
-            buttons.append(InlineKeyboardButton(text='Назад', callback_data='back_to_main'))
-            keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
-            return keyboard
-        
-    ]
+    buttons = []
+
+    for category in categories:
+        buttons.append(
+            InlineKeyboardButton(text=category['name'],
+                callback_data=f"category_{category['id']}")
+        )
+        buttons.append([InlineKeyboardButton(text='Назад', callback_data='back_to_main')])
+        keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
+        return keyboard
+    
+    
